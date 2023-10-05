@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return "Hello Everyone"
 
 
 if __name__ == "MY JENKINS PROJECT TASK":
